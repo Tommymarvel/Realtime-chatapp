@@ -1,9 +1,14 @@
 import React from 'react';
+import Navbar from './Navbar';
+import Searchbar from './Searchbar';
+import ChatList from './ChatList';
 
 const Sidebar = () => {
   return (
-    <div>
-      
+    <div className="sidebar">
+      <Navbar />
+      <Searchbar />
+      <ChatList />
     </div>
   );
 }

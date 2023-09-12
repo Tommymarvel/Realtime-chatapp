@@ -4,12 +4,13 @@ import Register from './pages/Register';
 import './styles.scss';
 
 
+
 function App() {
   return (
     <>
       {/* <Register /> */}
-      {/* {/* <Home /> */}
-      <Login />
+       <Home />
+      {/* <Login /> */}
     </>
   );
 }

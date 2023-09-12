@@ -1,9 +1,14 @@
 import React from 'react';
+import Sidebar from '../component/Sidebar';
+import Chat from '../component/Chat';
 
 const Home = () => {
   return (
-    <div>
-      <h1>Home</h1>
+    <div className='home'>
+      <div className="container">
+       <Sidebar />
+       <Chat />
+      </div>
     </div>
   );
 }
